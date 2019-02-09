@@ -1,0 +1,23 @@
+### Python ###
+__pycache__/
+
+# pyenv
+.python-version
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### Python Patch ###
+.venv/
+
+### IDE ###
+.idea/
