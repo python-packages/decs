@@ -8,7 +8,7 @@ with open("README.md", "r") as f, open("requirements.txt", "r") as g:
 
 setuptools.setup(
      name='decs',
-     version='0.0.3',
+     version='0.0.4',
      author="Sergey Kastryulin",
      author_email="snk4tr@gmail.com",
      description="A handful of useful general-purpose python decorators.",

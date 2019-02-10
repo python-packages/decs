@@ -1,4 +1,4 @@
-# Decs [![Build Status](https://travis-ci.org/python-packages/decs.svg?branch=master)](https://travis-ci.org/python-packages/decs)
+# Decs [![Build Status](https://travis-ci.org/python-packages/decs.svg?branch=master)](https://travis-ci.org/python-packages/decs) [![codecov](https://codecov.io/gh/python-packages/decs/branch/master/graph/badge.svg)](https://codecov.io/gh/python-packages/decs) [![PyPI version](https://badge.fury.io/py/decs.svg)](https://badge.fury.io/py/decs) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A handful of useful general-purpose python decorators.
 
