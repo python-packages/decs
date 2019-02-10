@@ -1,0 +1,19 @@
+language: python
+
+python:
+- '3.6'
+- '3.7'
+
+install:
+- pip install -r requirements.txt
+
+script:
+- python -m unittest
+  
+deploy:
+  provider: pypi
+  user: snk4tr
+  password:
+    secure: NSoc0/2o+uOBABs7/2uxU+7qGzsa44Eo/CDNOyMpP+f5cI1/6GhoCcYhVq3lmBl088eS3Rg2IoQ1pucCbamnWeoCU/XFmQ8/FFZexS9SR3ubFzOfNxw+RS6Vj/wRFw0ymCVz+4Irz5xgVPMZMcJH91O4bsDesM4r3Bp3moIneeBW1zo1I7HyEVMcW6dtl1OLikIjR90KLjdnBePc6hCpO0JQIswLM+5kTqldYT/5AnJuEipe8ZdKmk/hrfeJPSMz1oAiER6lO5DFSu8+fc3huNVMBD8ilbkKTblPHVyRmPNMScGfzynJ9ljxON7u8F4YDJDFoz/DyIUfPeFUwQc6h5ogHpP1QTo9ROnONYRMp6q2E3dzPR2u4m6yIL7z8KVAZu8JHaKZXw3iUtMWdAyGVV8pI5VSQv3vsIK6UnJZR+ZSAJ2C4osBJzonOF7coCOAkKfdIGPHj6rgOw3x5eWTGA6IEiUCKqkRWjdZDvT3TqlpbK6ZHfQtCi8vak5WuLfiNGAQAdRt8ACNNtOiN536g52TPixFuVBkitQO6MLwZKAeA08k4GnLDJFszPDV5EWajRnVgk0QkxYe+Qkz36DzKv2Tnjqaav2P8ssNteTcjo9zTSpL7+tyRALmiaKLX6CjdzXKQ3S/jTWXCofsD/cqhRcxS4hmTDzzG32/NuHg1Zg=
+  on:
+    tags: true
