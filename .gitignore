@@ -21,3 +21,11 @@ venv.bak/
 
 ### IDE ###
 .idea/
+
+### Build and dist directories ###
+=build/
+build/
+dist/
+dist.zip
+*.egg-info
+*.7z

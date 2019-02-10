@@ -4,9 +4,7 @@ A handful of useful general-purpose python decorators.
 
 ### Installing
 
-$ `git clone `  
-
-TODO: add the package to pip.
+$ `pip install decs`
 
 ### How to use
 
