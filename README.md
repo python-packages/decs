@@ -1,4 +1,4 @@
-# Decs
+# Decs [![Build Status](https://travis-ci.org/python-packages/decs.svg?branch=master)](https://travis-ci.org/python-packages/decs)
 
 A handful of useful general-purpose python decorators.
 
